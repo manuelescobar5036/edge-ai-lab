@@ -1,0 +1,51 @@
+===== DEVICE INFO =====
+Hostname: raspi5
+Date: Thu 16 Jul 16:37:44 -05 2026
+Uptime: up 6 hours, 26 minutes
+IP: 192.168.1.62 192.168.1.74 2001:1388:1a01:13df:2ecf:67ff:feba:6d6b 2001:1388:1a01:13df:2ecf:67ff:feba:6d6c 
+
+===== OS =====
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+
+===== CPU =====
+Architecture:                            aarch64
+CPU op-mode(s):                          32-bit, 64-bit
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               ARM
+Model name:                              Cortex-A76
+Model:                                   1
+Thread(s) per core:                      1
+Core(s) per cluster:                     4
+Socket(s):                               -
+Cluster(s):                              1
+Stepping:                                r4p1
+Frequency boost:                         disabled
+CPU(s) scaling MHz:                      62%
+
+===== MEMORY =====
+               total        used        free      shared  buff/cache   available
+Mem:           7.9Gi       439Mi       7.0Gi        34Mi       602Mi       7.4Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+===== DISK =====
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           1.6G   14M  1.6G   1% /run
+/dev/mmcblk0p2  115G  6.6G  103G   7% /
+tmpfs           4.0G  336K  4.0G   1% /dev/shm
+tmpfs           5.0M   48K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           4.0G   16K  4.0G   1% /tmp
+/dev/mmcblk0p1  505M   87M  418M  18% /boot/firmware
+tmpfs           807M  256K  806M   1% /run/user/1000
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyAMA10.service
+
+===== TEMPERATURE =====
+47 °C

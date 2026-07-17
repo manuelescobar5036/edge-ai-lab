@@ -14,12 +14,15 @@ def get_temperature():
     return None
 
 def get_ip():
+    interfaces = ["eth0", "enP8p1s0"]
     result = subprocess.check_output(
-        ["ip", "-4", "addr", "show", "eth0"]
+        ["ip", "-4", "addr", "show"]
     ).decode()
     for line in result.splitlines():
-        if "inet " in line:
-            return line.strip().split()[1].split("/")[0]
+        for interface in interfaces:
+            if interface in line:
+                if "inet " in line:
+                    return line.strip().split()[1].split("/")[0]
     raise RuntimeError("unknwon IP address")
 
 
